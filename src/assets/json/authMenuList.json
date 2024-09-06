@@ -30,6 +30,36 @@
       }
     },
     {
+      "path": "/bills",
+      "name": "bills",
+      "redirect": "/bills/billRecord",
+      "meta": {
+        "icon": "Menu",
+        "title": "账务管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      },
+      "children": [
+        {
+          "path": "/bills/billRecord",
+          "name": "billRecord",
+          "component": "/bills/billRecord/index",
+          "meta": {
+            "icon": "Money",
+            "title": "账单记录",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ]
+    },
+    {
       "path": "/proTable",
       "name": "proTable",
       "redirect": "/proTable/useProTable",
